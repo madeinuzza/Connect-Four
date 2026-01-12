@@ -35,7 +35,8 @@ If the board fills up without a winner, the game ends in a draw
 
 **🧱 Board Representation**
 
-The game board is represented as a 2D list:
+- The game board is represented as a 2D list:
+  
 board = [
     [" ", " ", " ", " ", " ", " ", " "],
     [" ", " ", " ", " ", " ", " ", " "],
@@ -44,6 +45,7 @@ board = [
     [" ", " ", " ", " ", " ", " ", " "],
     [" ", " ", " ", " ", " ", " ", " "]
 ]
+
 - " " → empty cell
 - "x" → Player X
 - "o" → Player O
