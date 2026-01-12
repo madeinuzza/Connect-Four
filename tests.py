@@ -1,14 +1,8 @@
-while True:
-    user_input = input("Enter an integer between 1 and 8: ")
+def my_function(*args):
+  print(args)
 
-    try:
-        num = int(user_input)
+my_function("hello", 2)
 
-        if 1 <= num <= 8:
-            print(f"Valid input: {num}")
-            break
-        else:
-            print("Number not in range 1–8. Try again.")
 
-    except ValueError:
-        print("Input is not an integer. Try again.")
+
+def my_other_function(**kwargs)
