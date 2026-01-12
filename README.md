@@ -1,13 +1,16 @@
 **🎮 Connect Four (Python Console Game)**
+
 A simple console-based implementation of the classic Connect Four game, written in Python. Two players take turns dropping tokens into a 6×7 grid, aiming to connect four pieces in a row before their opponent.
 
 
 **📌 Overview**
+
 This project recreates the classic Connect Four game in the terminal.
 Players X and O alternate turns, selecting a column where their token will fall to the lowest available position. The game automatically checks for wins and draws after every move.
 
 
 **🕹 Game Rules**
+
 The board has 6 rows and 7 columns
 Player X always goes first
 On your turn, enter a column number from 1 to 7
@@ -20,6 +23,7 @@ If the board fills up without a winner, the game ends in a draw
 
 
 **✨ Features**
+
 1. Input validation for incorrect or full columns
 2. Gravity-based token placement
 3. Automatic win detection:
@@ -30,6 +34,7 @@ If the board fills up without a winner, the game ends in a draw
 
 
 **🧱 Board Representation**
+
 The game board is represented as a 2D list:
 board = [
     [" ", " ", " ", " ", " ", " ", " "],
@@ -45,6 +50,7 @@ board = [
 
 
 **🧩 Functions**
+
 1. print_board(board)
 Prints the current state of the board with column numbers and borders.
 
@@ -67,6 +73,7 @@ Used to determine a draw.
 
 
 **▶️ How to Run**
+
 1. Ensure Python 3 is installed
 2. Clone the repository or copy the code into a file:
     git clone <repository-url>
