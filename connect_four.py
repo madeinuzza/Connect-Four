@@ -7,15 +7,11 @@ board = [
     [" ", " ", " ", " ", " ", " ", " "]   # row 6 (bottom)
 ]
 
-
-### CREATING THE BOARD 
 number_of_columns = 7
 number_of_rows = 6
-#board = [[]]
 
-for i in range(number_of_rows):
-    for j in range(number_of_columns):
-        pass
+
+
 
 
 ############################ Printing the board ############################
